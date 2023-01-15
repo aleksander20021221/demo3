@@ -4,4 +4,5 @@ import com.example.demo3.dto.PersonDto;
 
 public interface PersonService {
     public PersonDto findPersonById(String id);
+   //adding methods
 }
