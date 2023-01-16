@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/springbootdemo
-    username: root
-    password: Alexander2002!
+    username: {insert}
+    password: {insert}
     driver-class-name: com.mysql.jdbc.Driver
 server:
   port: 8081
