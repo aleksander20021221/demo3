@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Transactional
-public class PersonSeviceImpl implements PersonService {
+public class PersonServiceImpl implements PersonService {
 
     @Override
     public PersonDto findById(String id) {
@@ -28,6 +28,5 @@ public class PersonSeviceImpl implements PersonService {
     public PersonDto updateWithPatch(PersonDto personDto) {
         return personDto;
     }
-
 
 }

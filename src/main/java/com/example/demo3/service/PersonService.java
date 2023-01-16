@@ -3,8 +3,9 @@ package com.example.demo3.service;
 import com.example.demo3.dto.PersonDto;
 
 public interface PersonService {
-    PersonDto findById(String id);
-    PersonDto create(PersonDto personDto);
-    PersonDto updateWithPut(PersonDto personDto);
-    PersonDto updateWithPatch(PersonDto personDto);
+    public PersonDto findById(String id);
+    public PersonDto create(PersonDto personDto);
+    public PersonDto updateWithPut(PersonDto personDto);
+    public PersonDto updateWithPatch(PersonDto personDto);
+
 }
