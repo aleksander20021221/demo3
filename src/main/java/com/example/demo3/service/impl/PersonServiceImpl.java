@@ -8,7 +8,6 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 @Transactional
 public class PersonServiceImpl implements PersonService {
-
     @Override
     public PersonDto findById(String id) {
         return PersonDto.builder().id(id).build();
@@ -28,5 +27,4 @@ public class PersonServiceImpl implements PersonService {
     public PersonDto updateWithPatch(PersonDto personDto) {
         return personDto;
     }
-
 }

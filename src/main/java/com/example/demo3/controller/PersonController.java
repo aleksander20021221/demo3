@@ -22,6 +22,7 @@ public class PersonController {
     public PersonDto createPerson(@RequestBody PersonDto personDto) {
         return personService.create(personDto);
     }
+
     @PutMapping("/{id}")
     public PersonDto updatePerson(@RequestBody PersonDto personDto){
         return personService.updateWithPut(personDto);
@@ -31,4 +32,5 @@ public class PersonController {
     public PersonDto updatePatch(@RequestBody PersonDto personDto){
         return personService.updateWithPatch(personDto);
     }
+
 }
